@@ -1,0 +1,25 @@
+﻿  DanhSachPhieuMuon.cpp
+  LinkedList.cpp
+  Main.cpp
+  Node.cpp
+  Generating Code...
+PhieuMuon.obj : error LNK2005: "public: __cdecl PhieuMuon::PhieuMuon(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0PhieuMuon@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl PhieuMuon::getMaBanDoc(void)" (?getMaBanDoc@PhieuMuon@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl PhieuMuon::getMaSach(void)" (?getMaSach@PhieuMuon@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: long __cdecl PhieuMuon::getNgayMuon(void)" (?getNgayMuon@PhieuMuon@@QEAAJXZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: long __cdecl PhieuMuon::getNgayTra(void)" (?getNgayTra@PhieuMuon@@QEAAJXZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: int __cdecl PhieuMuon::getSoPhieuMuon(void)" (?getSoPhieuMuon@PhieuMuon@@QEAAHXZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: int __cdecl PhieuMuon::getTinhTrangPhieuMuon(void)" (?getTinhTrangPhieuMuon@PhieuMuon@@QEAAHXZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setMaBanDoc(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setMaBanDoc@PhieuMuon@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setMaSach(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setMaSach@PhieuMuon@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setNgayMuon(long)" (?setNgayMuon@PhieuMuon@@QEAAXJ@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setNgayTra(long)" (?setNgayTra@PhieuMuon@@QEAAXJ@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setSoPhieuMuon(int)" (?setSoPhieuMuon@PhieuMuon@@QEAAXH@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::setTinhTrangPhieu(int)" (?setTinhTrangPhieu@PhieuMuon@@QEAAXH@Z) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::traSach(void)" (?traSach@PhieuMuon@@QEAAXXZ) already defined in Main.obj
+PhieuMuon.obj : error LNK2005: "public: void __cdecl PhieuMuon::xuat(void)" (?xuat@PhieuMuon@@QEAAXXZ) already defined in Main.obj
+Main.obj : error LNK2019: unresolved external symbol "public: __cdecl LinkedList<class PhieuMuon>::LinkedList<class PhieuMuon>(void)" (??0?$LinkedList@VPhieuMuon@@@@QEAA@XZ) referenced in function "public: __cdecl DanhSachPhieuMuon<class PhieuMuon>::DanhSachPhieuMuon<class PhieuMuon>(void)" (??0?$DanhSachPhieuMuon@VPhieuMuon@@@@QEAA@XZ)
+Main.obj : error LNK2019: unresolved external symbol "public: __cdecl LinkedList<class PhieuMuon>::~LinkedList<class PhieuMuon>(void)" (??1?$LinkedList@VPhieuMuon@@@@QEAA@XZ) referenced in function "public: __cdecl DanhSachPhieuMuon<class PhieuMuon>::~DanhSachPhieuMuon<class PhieuMuon>(void)" (??1?$DanhSachPhieuMuon@VPhieuMuon@@@@QEAA@XZ)
+Main.obj : error LNK2019: unresolved external symbol "public: void __cdecl LinkedList<class PhieuMuon>::addTail(class PhieuMuon)" (?addTail@?$LinkedList@VPhieuMuon@@@@QEAAXVPhieuMuon@@@Z) referenced in function "public: void __cdecl DanhSachPhieuMuon<class PhieuMuon>::muon(void)" (?muon@?$DanhSachPhieuMuon@VPhieuMuon@@@@QEAAXXZ)
+Main.obj : error LNK2019: unresolved external symbol "public: class Node<class PhieuMuon> * __cdecl LinkedList<class PhieuMuon>::getHead(void)" (?getHead@?$LinkedList@VPhieuMuon@@@@QEAAPEAV?$Node@VPhieuMuon@@@@XZ) referenced in function "public: void __cdecl DanhSachPhieuMuon<class PhieuMuon>::muon(void)" (?muon@?$DanhSachPhieuMuon@VPhieuMuon@@@@QEAAXXZ)
+D:\---Học Tập\Lập trình\C++\Đồ Án\QuanLiThuVien1\x64\Debug\QuanLiThuVien.exe : fatal error LNK1120: 4 unresolved externals
